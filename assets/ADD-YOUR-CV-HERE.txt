@@ -1,0 +1,1 @@
+Replace this file with your own PDF CV named cv.pdf. The download links expect assets/cv.pdf.

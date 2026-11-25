@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="3D Artist & Motion Designer portfolio">
+  <meta name="theme-color" content="#0b0c0f">
+  <title>Your Name — 3D Artist & Motion Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Back to top"><span class="mark">✳</span> YOUR NAME<span class="wordmark-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Selected work</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+        <h1>Making ideas<br> feel <span class="accent">tangible.</span></h1>
+        <p class="hero-intro">I’m <strong>Your Name</strong> — a 3D Artist & Motion Designer creating expressive visuals, considered motion and digital worlds.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#work">Explore my work <span>↘</span></a>
+          <a class="text-link" href="assets/cv.pdf" download>Download CV <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract 3D artwork placeholder">
+        <div class="art-grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="art-ring"></div><div class="art-caption"><span>FORM / LIGHT / MOTION</span><span>01 — 04</span></div>
+      </div>
+      <div class="hero-bottom"><span>BASED IN YOUR CITY · WORKING WORLDWIDE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section-wrap about section-block" id="about">
+      <div class="section-kicker"><span>01</span> / ABOUT</div>
+      <div class="about-content">
+        <h2>Curious by nature.<br><span class="muted">Precise by design.</span></h2>
+        <div class="about-text"><p id="about-text">I’m a multidisciplinary 3D Artist and Motion Designer focused on building strong visual concepts and bringing them to life through form, texture, light and movement. I enjoy turning complex ideas into clear, memorable visual experiences.</p>
+        <p class="muted">From the first sketch to the final frame, I care about both the big idea and the smallest detail.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="work">
+      <div class="section-heading"><div class="section-kicker"><span>02</span> / SELECTED WORK</div><p>A selection of experiments, commissions and visual explorations.</p></div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <section class="section-wrap section-block skills-section" id="skills">
+      <div class="section-kicker"><span>03</span> / TOOLKIT</div>
+      <div class="skills-layout"><h2>Tools are just<br><span class="muted">the beginning.</span></h2><div id="skills-list" class="skills-list"></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-kicker"><span>04</span> / EXPERIENCE</div>
+      <div id="experience-list" class="experience-list"></div>
+    </section>
+
+    <section class="contact section-wrap section-block" id="contact">
+      <div class="section-kicker"><span>05</span> / CONTACT</div>
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let’s make<br><span class="accent">something matter.</span></h2>
+      <a class="contact-email" id="email-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      <div class="contact-footer"><p>Open to collaborations, freelance projects and full-time opportunities.</p><div class="social-links"><a id="linkedin-link" href="#" target="_blank" rel="noreferrer">LinkedIn ↗</a><a id="github-link" href="#" target="_blank" rel="noreferrer">GitHub ↗</a><a href="assets/cv.pdf" download>CV ↓</a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#top"><span class="mark">✳</span> YOUR NAME<span class="wordmark-dot">.</span></a><span>DESIGNED WITH INTENTION · <span id="year"></span></span><a href="#top">BACK TO TOP ↑</a></footer>
+  <script src="content.js"></script><script src="script.js"></script>
+</body>
+</html>
